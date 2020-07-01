@@ -16,6 +16,22 @@
 @import "bootstrap-sprockets";  /*ここを追加*/
 @import "bootstrap";            /*ここを追加*/
 
+p, ol, ul, td {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 33px;
+}
+
+p {
+	margin:0 0 10px;
+}
+
+ul {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
 header {
 	color:white;
 }
@@ -25,10 +41,40 @@ header .navbar-left span {
 	padding-top: 10px;
 }
 
+.navbar-fixed-top {
+    top: 0;
+    border-width: 0 0 1px;
+}
+
 body {
-	margin-top: 40px;
+	margin-top: 51px;
+}
+
+.cotainer {
+	margin-right: auto;
+	margin-left: auto;
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 .actions {
 	margin-top:10px;
+}
+
+div.field, div.actions {
+	margin-bottom: 10px
+}
+
+#notice {
+	color: green;
+}
+
+#error_explanation {
+	color: red;
+}
+
+h3 {
+	font-size: 24px;
+	margin-top: 20px;
+	margin-bottom: 10px;
 }
